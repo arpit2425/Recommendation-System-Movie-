@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>Home</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			Movie Reccomendation App with Flask API
+		</div>	
+	</div>
+	</header>
+
+	<div class="ml-container" style="text-align:center;">
+	<br>
+	
+		<h2>The app is developed for hollywood movie recommendation on IMDB 5000 movies</h2>
+		<form action="/analyze_url" method="POST">
+		<p color:blue>Enter your Movie name here</p>
+		<!-- <input type="text" name="comment"/> -->
+		<br>
+		<input type="text" name="movie" name="message" placeholder="Movie name here">
+        <br>
+		
+
+		<input type="submit" class="btn-info" value="Enter">
+		
+	</form>
+		
+	</div>
+
+	
+	
+
+</body>
+</html>
+
+<style>
+
+input.btn-info {
+    background: #106ebe;
+    border: 1px solid #106ebe;
+    color: #FFF;
+    border-radius: 2px;
+    padding: 5px 16px;
+}
+
+text {
+    width: 40%;
+    height: 100px;
+    border: 1px solid #106ebe;
+	border-radius: 10px;
+}
+div#brandname {
+    background: #106ebe;
+    padding: 17px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+</style>
