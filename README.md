@@ -10,3 +10,5 @@ I used Flask web API framework to put in on web with Heroku.
 
 ### Working web model:
 https://rajeevranjan-recommendingmovie.herokuapp.com/
+
+### Approach taken:
