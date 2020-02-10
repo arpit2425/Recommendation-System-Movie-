@@ -17,4 +17,5 @@ https://rajeevranjan-recommendingmovie.herokuapp.com/
 
 ### Approach taken:
 1. Data collection
-2. Data preprocessing : can be found datapreprocessing
+2. Data preprocessing : can be found preprocessing.ipynb file.
+3. Data modeling: Countvectorizer , Cosine similarity
