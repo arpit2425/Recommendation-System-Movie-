@@ -44,4 +44,4 @@ This is content based reccomendation system which uses similarity score means ba
 
 ### Result showing on web:
 
-![Home page](link-to-image)
+![Home page](https://github.com/RajeevRanjan2015/Recommendation-System-Movie-/blob/master/home%20page.PNG)
