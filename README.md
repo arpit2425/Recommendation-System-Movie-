@@ -8,7 +8,7 @@ I am not so into hollywood movies but definately have watched famous movies. Som
 
 So, I am going to use cosine similarity recommendation approach to recommend similar hollywood movies based on your choice. I will be using flask to make app and Heroku p-a-a-s to deploy. This will be end to end project from data collection to deployment. I am really excited to go ahead.
 
-![web app](https://rajeevranjan-recommendingmovie.herokuapp.com/)
+[web app link](https://rajeevranjan-recommendingmovie.herokuapp.com/)
 
 ### Data set:
 I used IMDB 5000 Movie Dataset which is collected from below link.
@@ -19,9 +19,6 @@ dataset :- https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset
 
 I used Flask web API framework to put the application on the web using Heroku.
 
-### Working web model:
-
-https://rajeevranjan-recommendingmovie.herokuapp.com/
 
 ### Approach taken:
 
