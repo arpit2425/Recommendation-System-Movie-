@@ -2,30 +2,36 @@
 
 ### Motivation for the project:
 
-Learning about Recommendation system in the during the ND025 course, something pops up into my mind. How about recommending hollywood movies?
+Learning about Recommendation system during the ND025 course, something pops up into my mind. How about recommending hollywood movies?
 
-I am not so into hollywood movies but definately have watched famous movies. Sometime you like a particular movie and you want to see more similar kind. But you don't know which are the movies similar to this one. Well, in that case recommending similar movies of your choice through an accessible web app would be a great idea. 
+I am not so into hollywood movies but definately have watched famous movies. Sometime you like a particular movie and you want to see more of similar kind. But you don't know which are the movies similar to this one. Well, in that case recommending similar movies of your choice through an accessible web app would be a great idea. 
 
-So, I am going to use cosine similarity recommendation approach to recommend similar hollywood movies based on your choice. I will be using flask to make app and Heroku p-a-a-s to deploy. This will be end to end project from data collection to deployment. I am really excited to go ahead.
+So, I am going to use cosine similarity recommendation approach to recommend similar hollywood movies based on your choice. I will be using flask to make app and Heroku p-a-a-s to deploy on web. This will be end to end project from data collection to deployment. I am really excited to go ahead.
 
 [web app link](https://rajeevranjan-recommendingmovie.herokuapp.com/)
 
 ### Data set:
+
 I used IMDB 5000 Movie Dataset which is collected from below link.
 dataset :- https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset
 
 
 ### Platform used:
 
-I used Flask web API framework to put the application on the web using Heroku.
+1. Web framework: Flask
+2. web: Heroku cloud
+3.Language: Python, HTML, CSS, Java script
 
 
 ### Approach taken:
 
-1. Data collection
-2. Data preprocessing : can be found preprocessing.ipynb file.
-3. Data modeling: Countvectorizer , Cosine similarity
-4. Model deployment
+1. Train your model
+2. Create web app
+3. Commit the code into github repository and add configuration files required
+4. Create account on Heroku
+5. Link the github repo to Heroku
+6. Deploy the model
+7. Web app is ready
 
 This is content based reccomendation system which uses similarity score means bases on the user's liking recommending similar items to the users.
 
