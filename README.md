@@ -51,7 +51,20 @@ This is content based reccomendation system which uses similarity score means ba
 4. You need to have procfile where we initialize the app.
 5. You need to import all the libraries which are necessary for running the application that needs to be installed in heroku. All the necessary libraries are kept in requirement.txt file.
 
+### Steps to deploy app on Heroku:
+
+1. Create account
+2. Right corner click new-->create new app
+3. Provide appropriate app name-->choose country-->click on create app
+4. App will get created. Now Choose github as diployment method and connect to your repository on github.
+5. After successful connection to your repository choose automatic deployment approach.
+6. Click deploy branch. Deployment get started which will take 3-5 minutes.
+7. click on view app and here you go with your app.
+
+Good luck!
 
 ### Result showing on web:
 
 ![Home page](https://github.com/RajeevRanjan2015/Recommendation-System-Movie-/blob/master/home%20page.PNG)
+
+
