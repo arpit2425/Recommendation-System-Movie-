@@ -20,7 +20,7 @@ dataset :- https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset
 
 1. Web framework: Flask
 2. web: Heroku cloud
-3.Language: Python, HTML, CSS, Java script
+3. Language: Python, HTML, CSS, Java script
 
 
 ### Approach taken:
