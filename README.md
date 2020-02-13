@@ -1,10 +1,17 @@
 # Movie-Recommendation-System
 
-### Description:
-This is a hollywood movie recommender system built with Python. I used IMDB 5000 Movie Dataset to built this. This is basically a POC project which is developed end to end from data collection to deployment.
+### Motivation for the project:
+
+Learning about Recommendation system in the during the ND025 course, something pops up into my mind. How about recommending hollywood movies?
+
+I am not so into hollywood movies but definately have watched famous movies. Sometime you like a particular movie and you want to see more similar kind. But you don't know which are the movies similar to this one. Well, in that case recommending similar movies of your choice through an accessible web app would be a great idea. 
+
+So, I am going to use cosine similarity recommendation approach to recommend similar hollywood movies based on your choice. I will be using flask to make app and Heroku p-a-a-s to deploy. This will be end to end project from data collection to deployment. I am really excited to go ahead.
+
+![web app](https://rajeevranjan-recommendingmovie.herokuapp.com/)
 
 ### Data set:
-
+I used IMDB 5000 Movie Dataset which is collected from below link.
 dataset :- https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset
 
 
