@@ -65,6 +65,5 @@ Good luck!
 
 ### Result showing on web:
 
-![Home page](https://github.com/RajeevRanjan2015/Recommendation-System-Movie-/blob/master/home%20page.PNG)
 
 
